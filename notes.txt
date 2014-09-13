@@ -33,3 +33,6 @@ git commit
 
 git log
 	shows us all the commits that were made
+
+git log --oneline
+	shows us all commits in one line (in reverse chronological order)
