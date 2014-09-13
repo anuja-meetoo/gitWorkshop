@@ -60,3 +60,11 @@ git add -p
 
 git reset --hard
 	resets your working directory to what you have in the repository (Be careful - may lose your local updates)
+
+git checkout <branch/commit_hash/etc>
+	switches to that branch/commit/etc
+	git checkout [hash of specific commit]
+		resets your working directory to what you had after that specific commit specified by the hash
+
+	git checkout master
+		sets your working directory to get back to the actual time
