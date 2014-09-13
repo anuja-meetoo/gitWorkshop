@@ -41,3 +41,16 @@ git log
 
 git log --oneline
 	shows us all commits in one line (in reverse chronological order)
+	displays a hash value (7 characters) and the comment for each commit
+
+messages in git
+	present tense
+	why is this necessary?
+	message description between 50 and 72 characters
+
+git diff <old> <new>
+	shows us what has changed between any 2 commits
+	replace <old> and <new> by hash values referring to two commits
+
+git diff
+	shows us what has changed between our working directory and staging area (not just what files has been changes but also exactly what has been changed int the files)
