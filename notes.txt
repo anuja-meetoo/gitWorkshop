@@ -20,6 +20,7 @@ git init
 
 git status
 	tells you the status of your working directory
+	Compares the difference between working directory and staging area and difference between staging area and repository
 
 .gitignore
 	tells git to completely ignore a a certain file (i.e. not to track the file); place the file in the folder .gitignore
@@ -30,6 +31,10 @@ git add [file]
 git commit
 	commits changes to the repository
 	need to add everytime before a commit
+	Commits:
+	- working directory: folder where you are saving your files you are working with
+	- staging area: where the files are when you do a git add
+	- repository: after a git commit, changes saved in the repository
 
 git log
 	shows us all the commits that were made
