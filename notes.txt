@@ -57,3 +57,6 @@ git diff
 
 git add -p
 	patch mode - let selectively stage the change
+
+git reset --hard
+	resets your working directory to what you have in the repository (Be careful - may lose your local updates)
