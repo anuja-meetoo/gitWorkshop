@@ -85,3 +85,6 @@ git branch <branch_name>
 to merge changes made on another branch into the current one, we use git merge <branch>
 git merge <branch>
 	merges changes on <branch> to current branch, e.g. master
+
+git remote add origin [url]
+	adds a git remote with the name origin
