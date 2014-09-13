@@ -73,3 +73,11 @@ git checkout <branch/commit_hash/etc>
 git revert <commit_hash/HEAD>
 	reverses that commit by making another opposite commit
 	git revert HEAD reverts the last commit
+
+Branches - parallel universes where we can work on different things in isolation, e.g. working on a new feature, work on a new branch, once it's tested and stable can merge with master
+
+git branch 
+	gives us a list of all branches in the repository
+
+git branch <branch_name>
+	creates a new branch
