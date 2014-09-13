@@ -81,3 +81,7 @@ git branch
 
 git branch <branch_name>
 	creates a new branch
+
+to merge changes made on another branch into the current one, we use git merge <branch>
+git merge <branch>
+	merges changes on <branch> to current branch, e.g. master
