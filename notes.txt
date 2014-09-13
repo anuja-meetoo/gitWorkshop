@@ -1,0 +1,25 @@
+pwd
+	lists present working directory
+
+ls
+	directory listing
+
+cd
+	change directory
+
+mkdir [directory_name]
+	create a new directory with name directory_name
+
+touch [file.extension]	
+	creates a file with name file.extension
+
+GIT STUFF
+
+git init
+	creates a new Git repository
+
+git status
+	tells you the status of your working directory
+
+.gitignore
+	tells git to completely ignore a a certain file (i.e. not to track the file); place the file in the folder .gitignore
