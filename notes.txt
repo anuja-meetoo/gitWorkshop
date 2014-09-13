@@ -46,7 +46,7 @@ git log --oneline
 messages in git
 	present tense
 	why is this necessary?
-	message description between 50 and 72 characters
+	50/72 rule - message description between 50 and 72 characters
 
 git diff <old> <new>
 	shows us what has changed between any 2 commits
@@ -54,3 +54,6 @@ git diff <old> <new>
 
 git diff
 	shows us what has changed between our working directory and staging area (not just what files has been changes but also exactly what has been changed int the files)
+
+git add -p
+	patch mode - let selectively stage the change
